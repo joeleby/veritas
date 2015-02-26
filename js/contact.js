@@ -18,8 +18,10 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "././submit.php",
+                url: "//formspree.io/setbro@gmail.com", 
                 type: "POST",
+                method: "POST",
+                dataType: "json",
                 data: {
                     name: name,
                     phone: phone,
@@ -50,7 +52,7 @@ $(function() {
                     //clear all fields
                     $('#contactForm').trigger("reset");
                 },
-            })
+            });
         },
         filter: function() {
             return $(this).is(":visible");
