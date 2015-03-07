@@ -98,7 +98,7 @@ main();
           $slide.height(winH);
           
           // Refresh Skrollr after resizing our sections
-          s.refresh($('.homeSlide'));
+          //s.refresh($('.homeSlide'));
           
       }
     })( jQuery );
