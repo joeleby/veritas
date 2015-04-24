@@ -51,8 +51,8 @@ Updated: Feb. 13, 2015
     }
     .commentlist ul { margin-left: 100px }
 }
-/* MAX 720px */
-@media (max-width: 720px) { 
+/* MAX 767px */
+@media (max-width: 767px) { 
     .portfolio-modal .modal-content img {
         margin-bottom: 30px;
         max-width: 100%;
@@ -142,6 +142,9 @@ Updated: Feb. 13, 2015
         font-size: 3em;
         padding: 5px;
         width: 300px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow:ellipsis;
     }
     #socials p, #bsocials p {
         font-size: 12px;
