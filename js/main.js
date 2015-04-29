@@ -1,7 +1,7 @@
 // Hello.
 //
 // This is The Scripts used for Awesome Photography/Portfolio Template
-//
+// http://jennylynpereira.com/demo/html/ap5/html/index.html
 //
 
 function main() {
@@ -30,7 +30,7 @@ function main() {
 
     // Header/Vision carousel slider
       $('.carousel').carousel({
-        interval: 3000
+        interval: 6000
       });
 
 
@@ -50,9 +50,6 @@ function main() {
           target: '.navbar-fixed-top' ,
           offset: 75
       });
-
-
-    
 
 }());
 
